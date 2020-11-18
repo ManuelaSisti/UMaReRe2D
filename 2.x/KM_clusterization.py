@@ -1,3 +1,10 @@
+'''
+m. sisti, f. finelli - 18/11/2020
+e-mail: manuela.sisti@univ-amu.fr, francesco.finelli@phd.unipi.it
+
+Clusterization using KMeans.
+'''
+
 #---------------------------------------------------
 #LIBRARIES
 import numpy as np
@@ -7,6 +14,7 @@ import matplotlib.pyplot as plt
 import glob
 import os
 import time
+import sys
 
 from sklearn.cluster import KMeans as KM
 from sklearn import preprocessing

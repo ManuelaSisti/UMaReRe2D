@@ -1,3 +1,10 @@
+'''
+m. sisti, f. finelli - 18/11/2020
+e-mail: manuela.sisti@univ-amu.fr, francesco.finelli@phd.unipi.it
+
+Computing clusters' aspect ratio.
+'''
+
 import utilities_unsup as ut
 
 #------------------------------------------------------

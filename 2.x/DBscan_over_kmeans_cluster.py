@@ -1,3 +1,11 @@
+'''
+m. sisti, f. finelli - 18/11/2020
+e-mail: manuela.sisti@univ-amu.fr, francesco.finelli@phd.unipi.it
+
+Applying DBscan to one selected cluster, among those found using KMeans algorithm.
+"label_rec" refers to the label of the chosen cluster among those found by KMeans. 
+'''
+
 import h2o 
 from h2o.estimators import H2OIsolationForestEstimator
 from sklearn.cluster import DBSCAN

@@ -1,6 +1,9 @@
 """
+m. sisti, f. finelli - 18/11/2020
+e-mail: manuela.sisti@univ-amu.fr, francesco.finelli@phd.unipi.it
+
 The goal of this routine is to create quantities that can be "correlated" to obtain regions interesting for reconnection. 
-Basic fields (B,Ve,n,E) must be loaded in the format [3,nx,ny,nz], where nx,ny and nz are the grid dimensions.
+Basic fields (J,B,Ve,n,E) must be loaded in the format [3,nx,ny,nz], where nx,ny and nz are the grid dimensions.
 --------------------------------------------------------------------------
 The final quantities computed by the routine are:
 --> the magnitude of the current density 								CALLED Jn
@@ -17,7 +20,7 @@ import utilities_unsup as ut
 
 #============================================================================
 #calculating Jn
-
+Jn = np.sqrt(J[0,:,:,:]**2+J[1,:,:,:]**2+J[2,:,:,:]**2)
 
 #============================================================================
 #calculating mod_Ve_plane

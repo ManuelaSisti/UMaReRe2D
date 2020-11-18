@@ -1,3 +1,9 @@
+'''
+m. sisti, f. finelli - 18/11/2020
+e-mail: manuela.sisti@univ-amu.fr, francesco.finelli@phd.unipi.it
+
+Finding the optimized K for KMeans. 
+'''
 #---------------------------------------------------
 #LIBRARIES
 import numpy as np
@@ -7,6 +13,7 @@ import seaborn as sns
 import glob
 import os
 import time
+import sys
 
 from sklearn import metrics
 from sklearn.cluster import KMeans as KM
