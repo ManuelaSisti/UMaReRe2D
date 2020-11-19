@@ -1,7 +1,7 @@
 # UMaReRe2D
 
 Recognition of Magnetic Reconnection structures in 2D dataset, via Unsupervised ML techniques (in particular using KMeans and DBscan).
-The codes and their instructions referring to a journal article titled "Detecting Reconnection Events in Kinetic Vlasov Hybrid Simulations Using Clustering Techniques".
+The codes and their instructions referring to a journal article titled "Detecting Reconnection Events in Kinetic Vlasov Hybrid Simulations Using Clustering Techniques". This project has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 776262 (AIDA, www.aida-space.eu).
 
 **TO DO**
 * [x] upload script crossvalidation (FF)
